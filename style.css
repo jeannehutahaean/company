@@ -31,6 +31,23 @@ ul {
     padding: 0;
 }
 
+/* Dark Mode Style for Login */
+.dark-mode .login-container {
+    background-color: #444;
+    color: #ddd;
+    border-color: #555;
+}
+
+.dark-mode input[type="text"], .dark-mode input[type="password"] {
+    background-color: #555;
+    color: #ddd;
+    border-color: #666;
+}
+
+.dark-mode input[type="submit"] {
+    background-color: #f9532d;
+}
+
 /* Navbar Styles */
 .navbar {
     display: flex;
